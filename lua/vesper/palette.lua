@@ -1,7 +1,7 @@
 local M = {}
 
 M.colors = {
-  bg = "#101010",
+  bg = "#000000",
   bg_elevated = "#1A1A1A",
   bg_hover = "#282828",
   bg_selected = "#232323",
