@@ -255,6 +255,10 @@ function M.setup(c)
   hl("FlashMatch", { fg = c.accent })
   hl("FlashCurrent", { fg = c.bg, bg = c.string })
   hl("FlashBackdrop", { fg = c.comment })
+
+  -- render-markdown.nvim
+  hl("RenderMarkdownCode", { bg = c.bg_elevated })
+  hl("RenderMarkdownCodeInline", { bg = c.bg_elevated })
 end
 
 return M
