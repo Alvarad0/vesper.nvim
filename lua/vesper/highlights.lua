@@ -44,7 +44,7 @@ function M.setup(c)
   hl("ErrorMsg", { fg = c.error })
   hl("WarningMsg", { fg = c.warning })
   hl("Title", { fg = c.accent })
-  hl("WildMenu", { fg = c.fg, bg = c.bg_selected 
+  hl("WildMenu", { fg = c.fg, bg = c.bg_selected })
   hl("ColorColumn", { bg = c.bg_elevated })
 
   -- syntax
